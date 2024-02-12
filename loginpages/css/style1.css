@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-image: url('../img/bg1.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+.login__container {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 450px;
+   
+    background-color: hsla(0, 1%, 27%, 0.7) ;
+    border-radius: 15px;
+    padding: 40px 40px;
+}
+
+.login__container h2 {
+    
+    padding: 40px;
+    text-align: center;
+    font-size: 36px;
+    color: whitesmoke;
+}
+
+.login__container label {
+    font-weight: bold;
+    
+    
+}
+
+.login__container input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login__container input[type="email"],
+.login__container input[type="password"]
+ {
+   border: none;
+   border-bottom: 2px solid #fff;
+   background: transparent;
+   height: 40px;
+   outline: none;
+   font-size: 16px;
+    
+}
+
+.login__container input::placeholder {
+    color: rgba(255,255,255,.5);
+}
+
+
+.login__container input[type='submit'] {
+    border: none;
+    outline:none;
+    height: 40px;
+    color: #333;
+    font-size: 16px;
+    background: whitesmoke;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.login__container input[type='submit']:hover {
+    background-color: orange;
+    color: whitesmoke;
+}
+
+.login__container a {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.login__container a:hover,
+.login__container a:focus
+ {
+    color: orange;
+}
+
+
+
+
