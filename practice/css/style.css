@@ -44,7 +44,7 @@ header {
     font-size: clamp(24px,2.5vw,56px);
 }
 
-
+/* Social Media Bar*/
 .sm__ul {
     list-style: none;
     margin-top: -20px;
